@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.topnav{
+    height: 30px;
+    padding-top: 5px;
+    color: white;
+    background-color: rgb(83, 80, 80);
+}
+.bottom-nav{
+    height: 50px;
+    padding-top: 5px;
+    
+    background-color: rgb(243, 246, 247);
+}
+
+}
