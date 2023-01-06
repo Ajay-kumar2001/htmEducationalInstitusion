@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <script>
+    function addelement(arr){
+        for( let i=arr.length; i>0;i--){
+            arr[i+2]=arr[i-1]
+           }
+           arr[0]=20
+    display(arr)
+    }
+    function display(){
+        console.log(arr)
+    }
+    var arr =new Array(5)
+    function creatArray(arr){
+        for(let i=0 ;i<arr.length;i++){
+            arr[i]=window.prompt("enter the array elements")
+        }
+
+    }
+    creatArray(arr)
+    addelement( arr)
+
+   </script>
+</head>
+<body>
+    
+</body>
+</html>
